@@ -8,7 +8,7 @@ $secretmsg1 = substr($secretmsg1, 5, $keyword); // On extrait une sous-chaîne d
 
 $message1 = str_replace('@#?',' ',$secretmsg1); // On remplace certains caractères par des espaces
 
-echo strrev($message1)." "; // On inverse et affiche le msg puis on saute une ligne
+echo strrev($message1)." "; // On inverse et affiche le msg puis on met un espace
 
 // On va répéter ce process pour 2 autres msgs
 
@@ -20,7 +20,7 @@ $secretmsg2 = substr($secretmsg2, 5, $keyword); // On extrait une sous-chaîne d
 
 $message2 = str_replace('@#?',' ',$secretmsg2); // On remplace certains caractères par des espaces
 
-echo strrev($message2)." "; // On inverse et affiche le msg puis on saute une ligne
+echo strrev($message2)." "; // On inverse et affiche le msg puis on met un espace
 
 
 $secretmsg3 = "aopi?sgnirts@#?sedhtg+p9l!";
@@ -31,5 +31,5 @@ $secretmsg3 = substr($secretmsg3, 5, $keyword); // On extrait une sous-chaîne d
 
 $message3 = str_replace('@#?',' ',$secretmsg3); // On remplace certains caractères par des espaces
 
-echo strrev($message3); // On inverse et affiche le msg puis on saute une ligne
+echo strrev($message3); // On inverse et affiche le msg 
 ?>
