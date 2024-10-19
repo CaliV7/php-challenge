@@ -9,3 +9,5 @@ $films = [
 foreach($films as $key => $film){
     echo ("Dans le film " . "$key, " . "les principaux acteurs sont : " . $films[$key][0] . ", " . $films[$key][1] . " et " . $films[$key][2] . "." . "<br>");
 } // On cherchait à faire afficher les titres des films et leurs acteurs principaux à l'aide d'une boucle
+
+?>
